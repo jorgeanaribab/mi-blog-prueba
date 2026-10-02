@@ -1,0 +1,21 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead title={`Galería - ${SITE_TITLE}`} description="Galería de fotos de mi blog" />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Galería de Fotos</h1>
+			<p>Próximamente aquí verás imágenes de mis proyectos y trabajos.</p>
+		</main>
+		<Footer />
+	</body>
+</html>
